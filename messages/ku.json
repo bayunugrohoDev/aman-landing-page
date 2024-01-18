@@ -1,0 +1,165 @@
+{
+  "navbar": {
+    "title": "أمان",
+    "menu": {
+      "home": "ماڵپه‌ڕ",
+      "about": "له‌باره‌ی",
+      "quote": "په‌یوه‌ندیكردن",
+      "contact": "نرخدانان",
+      "support": "پاڵپشتیكردن"
+    }
+  },
+  "hero": {
+    "title": "ئێستا بیمه بکه، هه‌رگیز نیگه‌ران مه‌به",
+    "description": "بۆ زامنكردنی داهاتووت، له‌مڕۆوه‌. بیمەی ئه مان، ئارامی ده‌روونی و پارێزگاریت لێده‌كات له‌ سه‌رتاسه‌ری عێراق",
+    "btnText": "هه‌ر ئێستا پرسیار له‌ نرخ بكه‌"
+  },
+  "section_titles": {
+    "home": {
+      "title1": "<b>بیمەکردنی عێراق</b>: ڕێگای تێپەڕاندن لە دەرەوەی ڕێگا نادیارەکان و دەرەوەی دەستهێنانی یاسا",
+      "title2": "چپڕۆكی ڕاسته‌قینه‌، متمانه‌ی قووڵ: كڕیاره‌كانمان ده‌دوێن",
+      "title3": "نادڵنیایی بگۆڕه‌ به‌ دڵنیایی – له‌گه‌ڵ بیمەی ئەمان"
+    },
+    "about": {
+      "title": "له باره ى  کۆمپانیای بيمه ى ئە مان ەوە",
+      "content": {
+        "paragraph1": "ه‌ بیمەی ئه‌مانه‌وه‌ سڵاوتان لێبێت – دراوسێیه‌ باشه‌كه‌تان له‌ جیهانی پارێزگاریكردن",
+        "paragraph2": "بێنه‌ به‌رچاوت، چه‌ند هاورێیه‌ك به‌ یه‌كه‌وه‌ له‌ هه‌ولێر به‌ده‌م چا و قاوه‌خواردنه‌وه‌ باسی خه‌ون و ئاواته‌كانیان بكه‌ن له‌ داهاتوودا، داهاتوویه‌ك كه‌ تیایدا هه‌موو خێزانێكی عێراقی هه‌ست به‌ ئاسایش و ئارامی بكات. بیمەی ئه‌مان به‌م جۆره‌ دروست بوو – له‌ هۆڵی كۆبوونه‌وه‌كان نه‌بوو، به‌ڵكو له‌ شه‌قامه‌ جه‌نجاڵه‌كان و گه‌ڕه‌كه‌ هێمنه‌كانه‌وه دروست بوو‌. ئێمه‌ تیمێكی ته‌واو خۆجێیین واته‌ خۆماڵین كه‌ به‌ چای خۆماڵی و گفتوگۆی جددیش جۆشدراوین له‌ بازاڕه‌كانی هه‌ولێر و به‌غدا، په‌رۆشیه‌كی هاوبه‌شمان هه‌یه‌ بۆ پارێزگاریكردن له‌ خه‌ونی كۆمه‌ڵگه‌كه‌ماندا. بابه‌ته‌كه‌ چ په‌یوه‌ندی به‌ پارێزگاریكردن له‌ ساته‌ به‌نرخه‌كانی خێزانه‌كه‌ته‌وه‌ هه‌بێـت له‌ شاری به‌صڕه‌، یان فه‌راهه‌مكردنی دڵنیایی بۆ كار و بازرگانیه‌كه‌ت له‌ شاری سلێمانی، سه‌ره‌ڕای گشت ئاسته‌نگه‌كان. ئێمه‌ لێره‌ین و زۆر نزیكین و ئاماده‌ین ده‌ستی یارمه‌تیت بۆ درێژ بكه‌ین.",
+        "paragraph3": "گه‌شتێكی پڕ متمانه‌، ژیانێكی پڕ له‌ بیروه‌ریی",
+        "paragraph4": "هیچ كات هاوڕێی وات هه‌بووه‌ كه‌ پێش ئه‌وه‌ی قسه‌ بكه‌ی زانیبێتی پێویستت به‌ چیه‌؟ ئه‌وه‌ ئێمه‌ین له‌ كۆمپانیای ده‌سته‌به‌ری ئه‌مان. ئێمه‌ ئه‌و ده‌موچاوه‌ ناسراوانه‌ین كه‌ تۆ له‌ بازاڕه‌كانی سلێمانی ده‌یانبینی، ئێمه‌ ئه‌و ده‌نگه‌ هاورێییانه‌ین كه‌ له‌ ته‌له‌فۆنه‌وه‌ گوێبیستیان ده‌بی له‌ شاری به‌غدا. ئێمه‌ هه‌میشه‌ چاره‌سه‌ری ئاماده‌كراو و تایبه‌ت به‌ تۆمان هه‌یه‌. گه‌شته‌كه‌مان  سه‌ركێشی سه‌رنجڕاكێشی تێدایه‌، پڕه‌ له‌ چیڕۆكی ئه‌و كه‌سانه‌ی ئێمه‌ هاوكاریمان كردوون و كاریگه‌ری گه‌وره‌مان له‌سه‌ر ژیانیان دروستكردووه‌ له‌ شاره‌كانی هه‌ولێر و به‌صڕه‌. كاره‌كانی ئێمه‌ ته‌نها له‌ چوارچێوه‌ی ده‌سته‌به‌ریدا قه‌تیس نه‌كراوه‌، به‌ڵكو ئێمه‌ و ئێوه‌ له‌ پێناو یه‌كتری هه‌ین و كارده‌كه‌ین، به‌یه‌كه‌وه‌ش ئاهه‌نگی سه‌ركه‌وتنه‌كانمان ده‌گێڕین و ڕووبه‌ڕووی ئالنگاریه‌كان ده‌بینه‌وه‌. بۆیه‌ ئه‌گه‌ر ئه‌مجاره‌ بیرت له‌ ده‌سته‌به‌ركردنی دواڕۆژی خۆت كرده‌وه‌ ئه‌وا ده‌سته‌به‌ری ئه‌مانت له‌بیر بێت – هاوڕێیه‌ نزیكه‌كه‌ت، كه‌ وێنه‌یه‌كی ڕۆشنتر و سه‌لامه‌تتر بۆ هه‌موومان له‌ عێراق ده‌نه‌خشێنێت."
+      }
+    },
+    "quote": {
+      "title": "Get a <b> Quote </b>",
+      "content": {
+        "paragraph1": "At Aman Insurance, we believe in clear, straightforward pricing that you can trust. Our rates are carefully set based on a thorough understanding of the local market, ensuring fairness and affordability. Getting a quote from us is as easy as it gets – just provide your vehicle's make and model, along with a few personal details, and within a minute, you'll have a transparent and tailored quote. No hidden fees, no complicated jargon, just honest pricing that makes sense for you. Experience the Aman difference, where transparency leads the way",
+        "paragraph2": "Fill in your details below, and we'll swiftly get in touch with a personalized quote just for you!"
+      }
+    }
+  },
+  "forms": {
+    "titles" : {
+      "support" : "Make a Claim"
+    },
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Full Name"
+      },
+      "fullName": {
+        "label": "Name",
+        "placeholder": "Your first and lastname"
+      },
+      "identifyDocument": {
+        "label": "Identity Documents",
+        "placeholder": "Identity Documents"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your Email"
+      },
+      "phoneNumber": {
+        "label": "Phone number",
+        "placeholder": "+961 7XX XXX XXXX"
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Building, Street Name, City, and Governate"
+      },
+      "carInfo": {
+        "label": "Car Info",
+        "placeholder": "Get your Quote"
+      },
+      "insuranceNumber": {
+        "label": "Insurance number",
+        "placeholder": "Your insurance number"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Tell us what you need help with"
+      }
+    },
+    "buttonsText":{
+      "quote" : "Get Your Quote",
+      "contact" : "Send Message",
+      "support" : "Make a Claim"
+    },
+    "note" : {
+      "contact" : " if you already a member of the Aman family."
+    }
+  },
+  "testimonials": {
+    "reviews": [
+      {
+        "name": "ئامینه‌ م. هه‌ولێر",
+        "message": "خێزانه‌كه‌مان هه‌ست به‌ ئارامی و دڵنیایی ده‌كات له‌ رێگه‌ی پاڵپشتی ئه‌مان بۆ بیمەی. شێوازی ڕاستگۆ‌یان و پارێزگاریكردنی متمانه‌پێكراویان هه‌ستی ئارامی ده‌روونیمان پێده‌به‌خشێ له‌ ژیانی ڕۆژانه‌ماندا"
+      },
+      {
+        "name": "Suwardhana",
+        "message": "Felling i can do anything, without worries"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "نادڵنیایی بگۆڕه‌ به‌ دڵنیایی – له‌گه‌ڵ بیمەی ئەمان",
+    "description": "له‌گه‌ڵ بیمەی ئه‌مان، داواكاری قه‌ربۆكردنه‌وه‌ و سكاڵا خێرا و بێ ماندووبوونه‌، ته‌نها به‌ چه‌ند كلیكێك به‌ ئۆنڵاین یان په‌یوه‌ندی ته‌له‌فۆنی، ئێمه‌ رێنمایی ته‌واوت ده‌كه‌ین تاكو‌ بتوانی هه‌موو هه‌نگاوه‌كان به‌ وریایی و لێهاتووییه‌وه‌ ته‌واو بكه‌ی.",
+    "btnText": "قَدِّم دعوى"
+  },
+  "faqs": {
+    "title": "پرسیاره‌ باوه‌كان",
+    "faq1": {
+      "question": "چی واده‌كات بیمەی ئه‌مان جیاواز بێت؟",
+      "answer": "hmmm 1"
+    },
+    "faq2": {
+      "question": "چۆن بتوانم ده‌سته‌به‌رییه‌كی (بیمە) گونجاو هه‌ڵبژێرم؟",
+      "answer": "hmmm 2"
+    },
+    "faq3": {
+      "question": "ئایا پڕۆسه‌ی داواكاری قه‌ره‌بۆكردنه‌وه‌ چۆنه‌؟",
+      "answer": "hmmm 3"
+    }
+  },
+  "contact_us": {
+    "title": "<b>پەیوەندیمان پێوە بکە</b>",
+    "infoTitle1": " په‌یوه‌ندیمان پێوه‌ بكه‌ له‌ رێگه‌ی ژماره‌ ته‌له‌فۆنی",
+    "infoDescription1": "12345698",
+    "infoTitle2": " ده‌توانین په‌یوه‌ندیت پێوه‌بكه‌ین",
+    "infoDescription2": "دووباره‌ په‌یوه‌ندیم پێوه‌بكه‌وه‌",
+    "infoTitle3": "ڕاسته‌وخۆ ئیمه‌یل بنێره‌",
+    "infoDescription3": "info@aman-iq.com"
+  },
+  "footer": {
+    "headOffice": {
+      "title": "ووسینگه‌ی كڕیارانی كۆمپانیای ئه‌مان",
+      "company": "The Boulevard",
+      "building": "شه‌قامی گوڵان",
+      "street": "پارێزگای هه‌ولێر",
+      "city": "٤٤٠٠١",
+      "country": "Iraq"
+    },
+    "followUs": {
+      "title": "له‌گه‌ڵمان به‌",
+      "socialMedia": [
+        { "platform": "Facebook", "link": "https://www.facebook.com" },
+        { "platform": "LinkedIn", "link": "https://www.linkedin.com" }
+      ]
+    },
+    "company": {
+      "title": "كۆمپانیا",
+      "aboutUs": "له‌باره‌ی ئێمه‌وه‌",
+      "executiveTeam": "تیم",
+      "partners": "هاوبه‌شه‌كانمان"
+    },
+    "careers": {
+      "title": "هه‌لی كار",
+      "jobOpenings": "هه‌لی كاری تازه"
+    },
+    "links": {
+      "staffLogin": "Staff Login",
+      "privacyPolicy": "Privacy Policy",
+      "sitemap": "Sitemap"
+    },
+    "copyright": "© Copyright KIIC 2024"
+  }
+}

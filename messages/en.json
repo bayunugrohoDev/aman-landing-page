@@ -1,0 +1,168 @@
+{
+  "navbar": {
+    "title": "Aman",
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "quote": "Get a Quote",
+      "contact": "Contact",
+      "support": "Support"
+    }
+  },
+  "hero": {
+    "title": "Insure now, Worry Never!",
+    "description": "<b>Securing Your Tomorrow, Today.</b> Aman Insurance - where peace of mind meets the promise of protection in Iraq.",
+    "btnText": "Get a Quote"
+  },
+  "section_titles": {
+    "home" : {
+      "title1" : "Insuring Iraq: <b> Beyond</b> the Road, <br /> and the <b> Law</b>", 
+      "title2" : "<b>Real</b> Stories, Genuine <b>Trust</b>: <br /> Our Customers Speak", 
+      "title3" : "Transform uncertainty into <b>Certainty</b>"
+    },
+    "about": {
+      "title": "About <b> Aman</b>",
+      "content": {
+        "paragraph1": "At Aman Insurance, we believe in clear, straightforward pricing that you can trust. Our rates are carefully set based on a thorough understanding of the local market, ensuring fairness and affordability. Getting a quote from us is as easy as it gets – just provide your vehicle's make and model, along with a few personal details, and within a minute, you'll have a transparent and tailored quote. No hidden fees, no complicated jargon, just honest pricing that makes sense for you. Experience the Aman difference, where transparency leads the way",
+        "paragraph2": "Imagine a group of friends in Erbil, sharing dreams over a cup of tea about a future where every Iraqi family feels safe and secure. That's how Aman Insurance started – not in a boardroom, but in the bustling streets and tranquil neighborhoods of Iraq. We're a fully homegrown team, fueled by local chai, spirited conversations in the markets of Erbil. and Baghdad, and a shared passion for safeguarding our community's dreams. Whether it's protecting your family's treasured moments in Basra or ensuring your business in Sulaymaniyah thrives against all odds, we're here, just around the corner, ready to lend a helping hand.",
+        "paragraph3" : "<b> A Journey of Trust, A Lifetime of Memories</b>",
+        "paragraph4" : "Ever had a friend who knows exactly what you need, even before you say it? That's us at Aman Insurance. We're the familiar faces you see at the market in Sulaymaniyah, the friendly voices you hear on the phone in Baghdad, always ready with a solution tailored just for you. Our journey has been an exciting adventure, filled with stories of people we’ve helped and lives we’ve touched in cities like Erbil and Basra. We're not just about insurance; we're about being there for each other, celebrating our victories, and facing our challenges together. So, next time you think about securing your future, remember Aman Insurance – your friend in the neighborhood, weaving a safer, brighter tapestry for all of us in Iraq"
+      }
+    },
+    "quote": {
+      "title": "Get a <b> Quote </b>",
+      "content": {
+        "paragraph1": "At Aman Insurance, we believe in clear, straightforward pricing that you can trust. Our rates are carefully set based on a thorough understanding of the local market, ensuring fairness and affordability. Getting a quote from us is as easy as it gets – just provide your vehicle's make and model, along with a few personal details, and within a minute, you'll have a transparent and tailored quote. No hidden fees, no complicated jargon, just honest pricing that makes sense for you. Experience the Aman difference, where transparency leads the way",
+        "paragraph2": "Fill in your details below, and we'll swiftly get in touch with a personalized quote just for you!"
+      }
+    }
+  },
+  "forms": {
+    "titles" : {
+      "support" : "Make a Claim"
+    },
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Full Name"
+      },
+      "fullName": {
+        "label": "Name",
+        "placeholder": "Your first and lastname"
+      },
+      "identifyDocument": {
+        "label": "Identity Documents",
+        "placeholder": "Identity Documents"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your Email"
+      },
+      "phoneNumber": {
+        "label": "Phone number",
+        "placeholder": "+961 7XX XXX XXXX"
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Building, Street Name, City, and Governate"
+      },
+      "carInfo": {
+        "label": "Car Info",
+        "placeholder": "Get your Quote"
+      },
+      "insuranceNumber": {
+        "label": "Insurance number",
+        "placeholder": "Your insurance number"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Tell us what you need help with"
+      }
+    },
+    "buttonsText":{
+      "quote" : "Get Your Quote",
+      "contact" : "Send Message",
+      "support" : "Make a Claim"
+    },
+    "note" : {
+      "contact" : " if you already a member of the Aman family."
+    }
+  },
+  "testimonials": {
+    "title": "What people are saying about us",
+    "review1": "Our family feels secure knowing Aman Insurance has our back. Their honest approach and reliable coverage give us peace of mind in our  daily lives.",
+    "review2": "Felling i can do anything, without worries.",
+    "reviews": [
+      {
+        "name": "Amina M, Erbil",
+        "message": "Our family feels secure knowing Aman Insurance has our back. Their honest approach and reliable coverage give us peace of mind in our daily lives."
+      },
+      {
+        "name": "Suwardhana",
+        "message": "Felling i can do anything, without worries"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Easy like <b>1, 2, 3</b>",
+    "description": " Submitting a claim with Aman Insurance is quick and hassle-free;    just a few clicks online or a simple phone call, and we'll guide you     through every step with care and efficiency",
+    "btnText": "Submit a Claim"
+  },
+  "faqs": {
+    "title": "FAQ'S",
+    "faq1": {
+      "question": "What Makes Aman Insurance Different?",
+      "answer": "hmmm 1"
+    },
+    "faq2": {
+      "question": "How Do I Choose the Right Policy?",
+      "answer": "hmmm 2"
+    },
+    "faq3": {
+      "question": "How does the claim process work?",
+      "answer": "hmmm 3"
+    }
+  },
+  "contact_us": {
+    "title": "<b>Get In</b> Touch",
+    "infoTitle1": " CALL US AT",
+    "infoDescription1": "12345698",
+    "infoTitle2": " WE CAN CALL YOU",
+    "infoDescription2": "Call me back",
+    "infoTitle3": " EMAIL US DIRECTLY",
+    "infoDescription3": "info@aman-iq.com"
+  },
+  "footer": {
+    "headOffice": {
+      "title": "Aman Head Office",
+      "company": "Kurdistan International Insurance Company",
+      "building": "KIB Building",
+      "street": "Gulan Street",
+      "city": "44000 Erbil",
+      "country": "Iraq"
+    },
+    "followUs": {
+      "title": "Follow Us",
+      "socialMedia": [
+        { "platform": "Facebook", "link": "https://www.facebook.com" },
+        { "platform": "LinkedIn", "link": "https://www.linkedin.com" }
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "aboutUs": "About Us",
+      "executiveTeam": "Board & Executive Team",
+      "partners": "Partners"
+    },
+    "careers": {
+      "title": "Careers",
+      "jobOpenings": "Current Job Openings"
+    },
+    "links": {
+      "staffLogin": "Staff Login",
+      "privacyPolicy": "Privacy Policy",
+      "sitemap": "Sitemap"
+    },
+    "copyright": "© Copyright KIIC 2024"
+  }
+}

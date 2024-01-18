@@ -1,57 +1,65 @@
-import React from 'react'
-import FbIcon from './icons/FbIcon'
-import LinkInIcon from './icons/LinkInIcon'
-import Link from 'next/link'
+import React from "react";
+import FbIcon from "./icons/FbIcon";
+import LinkInIcon from "./icons/LinkInIcon";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("footer");
   return (
-    <div className="w-full flex flex-col p-16 gap-16 bg-prussianBlue rounded-b-2xl ">
-    <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
-      <p className="font-bold text-white">Aman Head Office </p>
-      <p> Kurdistan International Insurance Company </p>
-      <p> KIB Building </p>
-      <p> Gulan Street </p>
-      <p> 44000 Erbil </p>
-      <p> Iraq </p>
-    </div>
-    <div className="flex gap-[128px]">
+    <div className="w-full flex flex-col p-16 gap-16 bg-prussianBlue rounded-b-2xl">
+      {/* Head Office Section */}
       <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
-        <p className="font-bold text-white">Follow Us </p>
-        <div className="flex gap-4">
-          <a href="">
-            <FbIcon />
-          </a>
-          <a href="">
-            <LinkInIcon />
-          </a>
+        <p className="font-bold text-white">{t("headOffice.title")}</p>
+        <p>{t("headOffice.company")}</p>
+        <p>{t("headOffice.building")}</p>
+        <p>{t("headOffice.street")}</p>
+        <p>{t("headOffice.city")}</p>
+        <p>{t("headOffice.country")}</p>
+      </div>
+
+      {/* Follow Us Section */}
+      <div className="flex gap-[128px]">
+        <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
+          <p className="font-bold text-white">{t("followUs.title")}</p>
+          <div className="flex gap-4">
+            <a href={t("followUs.socialMedia.0.link")}>
+              <FbIcon />
+            </a>
+            <a href={t("followUs.socialMedia.1.link")}>
+              <LinkInIcon />
+            </a>
+          </div>
+        </div>
+
+        {/* Company Section */}
+        <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
+          <p className="font-bold text-white">{t("company.title")}</p>
+          <p>{t("company.aboutUs")}</p>
+          <p>{t("company.executiveTeam")}</p>
+          <p>{t("company.partners")}</p>
+        </div>
+
+        {/* Careers Section */}
+        <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
+          <p className="font-bold text-white">{t("careers.title")}</p>
+          <p>{t("careers.jobOpenings")}</p>
         </div>
       </div>
 
-      <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
-        <p className="font-bold text-white">Company </p>
-        <p> About Us </p>
-        <p> Board & Executive Team </p>
-        <p> Partners </p>
-      </div>
-
-      <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
-        <p className="font-bold text-white">Careers </p>
-        <p> Current Job Openings </p>
-      </div>
-    </div>
-
-    <div className="flex justify-between">
-      <div className="flex gap-8 text-white text-md font-medium">
-        <Link href={"#"}>Staff Login</Link>
-        <Link href={"#"}>Privacy Policy</Link>
-        <Link href={"#"}>Sitemap</Link>
-      </div>
-      <div className="text-white text-md font-medium">
-        © Copyright KIIC 2024
+      {/* Footer Links Section */}
+      <div className="flex justify-between">
+        <div className="flex gap-8 text-white text-md font-medium">
+          <Link href={t("links.staffLogin")}>{t("links.staffLogin")}</Link>
+          <Link href={t("links.privacyPolicy")}>
+            {t("links.privacyPolicy")}
+          </Link>
+          <Link href={t("links.sitemap")}>{t("links.sitemap")}</Link>
+        </div>
+        <div className="text-white text-md font-medium">{t("copyright")}</div>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

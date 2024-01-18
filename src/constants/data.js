@@ -12,3 +12,5 @@ export const faqData = [
     answer: "How does the claim process work",
   },
 ];
+
+export const locales = ['en', 'ku', 'ar'];

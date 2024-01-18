@@ -1,7 +1,10 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 const Benefits = () => {
+  const t = useTranslations("benefits");
+
   return (
     <div className="flex items-center gap-12">
       <div className="relative w-1/2">
@@ -22,17 +25,18 @@ const Benefits = () => {
       </div>
       <div className="w-1/2 flex items-center">
         <div className="flex flex-col gap-8">
-          <h5 className="text-[38px] text-black ">
-            Easy like <span className="font-bold">1, 2, 3</span>
+          <h5
+            className="text-[38px] text-black "
+            dangerouslySetInnerHTML={{ __html: t.raw("title") }}
+          >
           </h5>
           <p className="text-[22px] ">
-            Submitting a claim with Aman Insurance is quick and hassle-free;
-            just a few clicks online or a simple phone call, and we'll guide you
-            through every step with care and efficiency
+          {t("description")}
           </p>
 
           <button className="bg-prussianBlue rounded-full text-white py-[10px] px-6 text-nd font-bold w-max">
-            Submit a Claim
+          {t("btnText")}
+
           </button>
         </div>
       </div>

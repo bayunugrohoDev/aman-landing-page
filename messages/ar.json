@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "title": "أمان",
+    "menu": {
+      "home": "الصفحة الرئيسية",
+      "about": "نبذة عن الشركة",
+      "quote": "الإتصال",
+      "contact": "التسعير",
+      "support": "الدعم"
+    }
+  },
+  "hero": {
+    "title": "أمِّن الآن، لا تقلق",
+    "description": "من أجل تؤمن اليوم مستقبلك، بادِر إلى التأمين لدى شركة أمان للتأمين - حيث تجد راحة البال وإيفاءً بوعد الحماية في العراق",
+    "btnText": "أحصِل على السعر المعروض"
+  },
+  "section_titles": {
+    "home" : {
+      "title1" : "لتأمين في العراق: على الرغم من عدم وجود الطرق االمبلطة بشكل جيد والقوانين الملائمة الخاصة بالتأمين", 
+      "title2" : "قصص حقيقية، ثقة حقيقية: عملاؤنا يتحدثون", 
+      "title3" : " حَوِّل الشك إلى يقين - مع شركة أمان للتأمين تَقبَّل رحلة الحياة بكل ثقة"
+    },
+    "about": {
+      "title": "<b>أمان للتأمين </b> نبذة عن شركة",
+      "content": {
+        "paragraph1": " جارك الوَدود في عالم الحماية  <b> تحية من شركة أمان للتأمين</b>",
+        "paragraph2": "خيل مجموعة من الأصدقاء في أربيل، يشاركون الأحلام إثناء شرب كوب من الشاي حول مستقبل تشعر فيه كل عائلة عراقية بالأمن والأمان. هكذا بدأت شركة أمان للتأمين - ليس في قاعة إجتماعات ، ولكن في الشوارع المزدحمة والأحياء الهادئة في العراق. نحن فريق محلي بالكامل، يغذيه الشاي المحلي والمحادثات الشَيِّقة في أسواق أربيل, وبغداد، وشغف مشترك لحماية أحلام مجتمعنا. وسواء كان الأمر يتعلق بحماية اللحظات الغالية لعائلتك في البصرة أو ضمان ازدهار عملك في السليمانية رغم كل الصعاب، فإننا هنا، قاب قوسين أو أدنى، على استعداد لتقديم يد العون.",
+        "paragraph3" : "<b>رحلة ثقة</b> ,حياة من الذكريات",
+        "paragraph4" : "هل كان لديك صديق يعرف بالضبط ما تحتاجه، حتى قبل أن تقوله ؟ هذا نحن في شركة أمان للتأمين. نحن الوجوه المألوفة التي تراها في السوق في السليمانية والأصوات الودية التي تسمعها عبر الهاتف في بغداد، ونحن لدينا دائماً الحل المناسب المصمم خصيصاً لك. لقد كانت رحلتنا مغامرة مثيرة، مليئة بقصص الأشخاص الذين ساعدناهم وكان لنا تأثير كبير على حياتهم في مدن مثل أربيل والبصرة. إن عملنا لا ينحصر في التأمين فقط ؛ بل نحن موجودون من أجل بعضنا البعض، والاحتفال بإنتصاراتنا، ومواجهة تحدياتنا معاً. لذا، في المرة القادمة التي تفكر فيها في تأمين مستقبلك، تذكر شركة أمان للتأمين - صديقك في الحي، وهو ينسج نسيجاً أكثر أماناً وإشراقاً لنا جميعاً في العراق"
+      }
+    },
+    "quote": {
+      "title": "Get a <b> Quote </b>",
+      "content": {
+        "paragraph1": "At Aman Insurance, we believe in clear, straightforward pricing that you can trust. Our rates are carefully set based on a thorough understanding of the local market, ensuring fairness and affordability. Getting a quote from us is as easy as it gets – just provide your vehicle's make and model, along with a few personal details, and within a minute, you'll have a transparent and tailored quote. No hidden fees, no complicated jargon, just honest pricing that makes sense for you. Experience the Aman difference, where transparency leads the way",
+        "paragraph2": "Fill in your details below, and we'll swiftly get in touch with a personalized quote just for you!"
+      }
+    }
+  },
+  "forms": {
+    "titles" : {
+      "support" : "Make a Claim"
+    },
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Full Name"
+      },
+      "fullName": {
+        "label": "Name",
+        "placeholder": "Your first and lastname"
+      },
+      "identifyDocument": {
+        "label": "Identity Documents",
+        "placeholder": "Identity Documents"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your Email"
+      },
+      "phoneNumber": {
+        "label": "Phone number",
+        "placeholder": "+961 7XX XXX XXXX"
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Building, Street Name, City, and Governate"
+      },
+      "carInfo": {
+        "label": "Car Info",
+        "placeholder": "Get your Quote"
+      },
+      "insuranceNumber": {
+        "label": "Insurance number",
+        "placeholder": "Your insurance number"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Tell us what you need help with"
+      }
+    },
+    "buttonsText":{
+      "quote" : "Get Your Quote",
+      "contact" : "Send Message",
+      "support" : "Make a Claim"
+    },
+    "note" : {
+      "contact" : " if you already a member of the Aman family."
+    }
+  },
+  "testimonials": {
+    "reviews" : [
+      { "name": "أمينة، م. أربيل", "message": "تشعر عائلتنا بالأمان وهي تعلم أن شركة أمان للتأمين تدعمنا. إن نهجهم الصادق وتغطيتهم الموثوقة يمنحنا راحة البال في حياتنا اليومية" },
+      { "name": "Suwardhana", "message": "Felling i can do anything, without worries" }
+    ]
+  },
+  "benefits": {
+    "title": "سهل للغاية",
+    "description": "إن تقديم دعوى إلى شركة أمان للتأمين يتم بسرعة ويخلو من المتاعب ؛ مُجَرَّد بضع نقرات عبر الإنترنت أو مكالمة هاتفية بسيطة، وسوف نقوم بتوجيهك خلال جميع الخطوات بعناية وكفاءة.",
+    "btnText": "قَدِّم دعوى"
+  },
+  "faqs": {
+    "title": "الأسئلة الشائعة",
+    "faq1": {
+      "question": "ما الذي يُمَيِّز شركة أمان للتأمين؟",
+      "answer": "hmmm 1"
+    },
+    "faq2": {
+      "question": "كيف أختار عقد التأمين المناسب؟",
+      "answer": "hmmm 2"
+    },
+    "faq3": {
+      "question": "ما هي الأمور التي تتضمنها عملية رفع الدعوى؟",
+      "answer": "hmmm 3"
+    }
+  },
+  "contact_us": {
+    "title": "<b>تواصَل معناە</b>",
+    "infoTitle1": "تصِل بنا على الهاتف رقم",
+    "infoDescription1": "12345698",
+    "infoTitle2": "يمكننا الاتصال بك",
+    "infoDescription2": "اتصل بي مرة أخرى",
+    "infoTitle3": "راسلنا مباشرة عِبر البريد الإلكتروني",
+    "infoDescription3": "info@aman-iq.com"
+  },
+  "footer": {
+    "headOffice": {
+      "title": "مكتب عملاء شركة أمان",
+      "company": "The Boulevard",
+      "building": "شارع غولان",
+      "street": "محافظة أربيل",
+      "city": "4400",
+      "country": ""
+    },
+    "followUs": {
+      "title": "تابعونا",
+      "socialMedia": [
+        { "platform": "Facebook", "link": "https://www.facebook.com" },
+        { "platform": "LinkedIn", "link": "https://www.linkedin.com" }
+      ]
+    },
+    "company": {
+      "title": "الشركة",
+      "aboutUs": "مَن نحن",
+      "executiveTeam": "الفريق",
+      "partners": "الشركاء"
+    },
+    "careers": {
+      "title": "الوظائف",
+      "jobOpenings": "فرص العمل الحالية"
+    },
+    "links": {
+      "staffLogin": "Staff Login",
+      "privacyPolicy": "Privacy Policy",
+      "sitemap": "Sitemap"
+    },
+    "copyright": "© Copyright KIIC 2024"
+  }
+}

@@ -1,21 +1,22 @@
 "use client";
 
 import React from "react";
-import SupportIcon from "./icons/SupportIcon";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 
-const Navbar = (props) => {
+import { Link, usePathname } from "../../navigation";
+
+import SupportIcon from "./icons/SupportIcon";
+
+const Navbar = ({ className }) => {
+  const currentLocal = useLocale();
   const pathname = usePathname();
+  const t = useTranslations("navbar");
+
   return (
-    <nav
-      className={`bg-white shadow fixed top-0 z-40 w-full ${
-        props?.className ? props?.className : ""
-      }`}
-    >
+    <nav className={`bg-white shadow fixed top-0 z-40 w-full ${className}`}>
       <div className="container mx-auto p-4 flex flex-wrap items-center justify-between ">
-        <a href="/" className="flex items-center gap-1">
+        <Link href="/" className="flex items-center gap-1">
           <Image
             height={35}
             width={35}
@@ -23,9 +24,9 @@ const Navbar = (props) => {
             alt="Aman Logo"
           />
           <span className="self-center text-3xl font-bold whitespace-nowrap pt-2">
-            Aman
+            {t("title")}
           </span>
-        </a>
+        </Link>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -61,7 +62,7 @@ const Navbar = (props) => {
                   pathname == "/" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
-                Home
+                {t("menu.home")}
               </Link>
             </li>
             <li>
@@ -71,58 +72,73 @@ const Navbar = (props) => {
                   pathname == "/about" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
-                About
+                {t("menu.about")}
               </Link>
             </li>
             <li>
               <Link
                 href="/quote"
-                  className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
+                className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
                   pathname == "/quote" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
-                Get a Quote
+                {t("menu.quote")}
               </Link>
             </li>
             <li>
               <Link
                 href="/contact"
-                  className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
+                className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
                   pathname == "/contact" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
-                Contact
+                {t("menu.contact")}
               </Link>
             </li>
             <li>
               <Link
                 href="/support"
                 className={`font-semibold flex gap-1 items-center text-md leading-normal text-black px-4 py-2 rounded-lg ${
-                pathname == "/support" ? "bg-prussianBlue text-white" : ""
-              }`}>
-                <SupportIcon color={pathname == "/support" ? 'white': 'black'} />
-                Support
+                  pathname == "/support" ? "bg-prussianBlue text-white" : ""
+                }`}
+              >
+                <SupportIcon
+                  color={pathname == "/support" ? "white" : "black"}
+                />
+                {t("menu.support")}
               </Link>
             </li>
-            <li className="flex gap-1">
-              <a
-                href="#"
-                className="font-semibold text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2"
+            <li className="flex gap-1 items-center">
+              <Link
+                href={pathname}
+                locale="en"
+                className={`${
+                  currentLocal == "en" ? "font-bold" : ""
+                } text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2`}
               >
-                EN /
-              </a>
-              <a
-                href="#"
-                className=" text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2"
+                EN
+              </Link>
+              <span>/</span>
+              <Link
+                href={pathname}
+                locale="ku"
+                className={`${
+                  currentLocal == "ku" ? "font-bold" : ""
+                } text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2`}
               >
-                کوردی /
-              </a>
-              <a
-                href="#"
-                className=" text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2"
+                کوردی
+              </Link>
+              <span>/</span>
+
+              <Link
+                href={pathname}
+                locale="ar"
+                className={`${
+                  currentLocal == "ar" ? "font-bold" : ""
+                } text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2`}
               >
                 عربي
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
