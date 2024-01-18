@@ -89,17 +89,14 @@
     }
   },
   "testimonials": {
-    "title": "What people are saying about us",
-    "review1": "Our family feels secure knowing Aman Insurance has our back. Their honest approach and reliable coverage give us peace of mind in our  daily lives.",
-    "review2": "Felling i can do anything, without worries.",
     "reviews": [
       {
         "name": "Amina M, Erbil",
         "message": "Our family feels secure knowing Aman Insurance has our back. Their honest approach and reliable coverage give us peace of mind in our daily lives."
       },
       {
-        "name": "Suwardhana",
-        "message": "Felling i can do anything, without worries"
+        "name": "Dhana, Suwar",
+        "message": "Feel i can do anything, without worrying anymore"
       }
     ]
   },
