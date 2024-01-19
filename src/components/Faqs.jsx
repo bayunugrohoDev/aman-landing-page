@@ -9,7 +9,7 @@ import PlusIcon from "./icons/PlusIcon";
 const Faqs = () => {
   const t = useTranslations("faqs");
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col gap-6 md:gap-12">
       <h2
         data-aos="zoom-in"
         className="text-2xl font-bold leading-10 md:text-[38px]"

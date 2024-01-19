@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="z-10 text-white md:w-[620px]">
           <h1
             data-aos="fade-right"
-            className="mb-4 text-6xl font-bold md:text-[78px] md:leading-[78px]"
+            className="mb-4 text-5xl font-bold md:text-[78px] md:leading-[78px]"
           >
             {t("title")}
           </h1>
