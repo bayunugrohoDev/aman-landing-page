@@ -8,6 +8,7 @@ import SectionTitle from "@/components/SectionTitle";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import FormQuote from "@/components/FormQuote";
+import Main from "@/components/Main";
 
 export default function Quote({ params: { locale } }) {
   unstable_setRequestLocale(locale);
@@ -18,58 +19,54 @@ export default function Quote({ params: { locale } }) {
     <>
       <Navbar />
 
-      <Container
-        className={`relative z-20 bg-white rounded-2xl mt-12 mb-[100px] md:top-[76px]`}
-      >
-        <div className="flex flex-col gap-32 p-16 ">
-          <div className="flex gap-12 w-full">
-            <SectionTitle
-              className="w-full"
-              title={
-                <span
-                  dangerouslySetInnerHTML={{ __html: t.raw("title") }}
-                ></span>
-              }
-              content={
-                <div className="text-[22px]">
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: t.raw("content.paragraph1"),
-                    }}
-                  ></p>
+      <Main className="top-[76px] mt-6 md:mt-12">
+        <div
+          data-aos="fade-right"
+          className="flex w-full flex-col gap-6 md:flex-row md:gap-12"
+        >
+          <SectionTitle
+            className="w-full"
+            title={
+              <span dangerouslySetInnerHTML={{ __html: t.raw("title") }}></span>
+            }
+            content={
+              <div className="text-[22px]">
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: t.raw("content.paragraph1"),
+                  }}
+                ></p>
 
-                  <br />
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: t.raw("content.paragraph2"),
-                    }}
-                  ></p>
-                </div>
-              }
-            />
-            <div className="relative w-[370px]">
-              <Image
-                width="422"
-                height="356"
-                src={`/images/quote-bg-user.png`}
-                alt="bg blue testimoni user"
-                className="absolute top-2 z-0"
-              ></Image>
-              <Image
-                height={370}
-                width={370}
-                src={"/images/quote-user.png"}
-                alt="img"
-                className="relative z-10 top-5"
-              ></Image>
-            </div>
+                <br />
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: t.raw("content.paragraph2"),
+                  }}
+                ></p>
+              </div>
+            }
+          />
+          <div data-aos="fade-left" className="relative w-full md:w-[370px]">
+            <Image
+              width="422"
+              height="356"
+              src={`/images/quote-bg-user.png`}
+              alt="bg blue testimoni user"
+              className="absolute top-2 z-0"
+            ></Image>
+            <Image
+              height={370}
+              width={370}
+              src={"/images/quote-user.png"}
+              alt="img"
+              className="relative top-5 z-10"
+            ></Image>
           </div>
-          {/* form  */}
-          <FormQuote/>
-          <ContactUs />
         </div>
-        <Footer />
-      </Container>
+        {/* form  */}
+        <FormQuote />
+        <ContactUs />
+      </Main>
     </>
   );
 }

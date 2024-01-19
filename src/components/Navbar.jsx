@@ -9,7 +9,7 @@ import { Link, usePathname } from "../../navigation";
 import SupportIcon from "./icons/SupportIcon";
 import BurgerIcon from "./icons/BurgerIcon";
 
-const Navbar = ({ className = ''}) => {
+const Navbar = ({ className = "" }) => {
   const currentLocal = useLocale();
   const pathname = usePathname();
   const t = useTranslations("navbar");
@@ -43,12 +43,12 @@ const Navbar = ({ className = ''}) => {
           <BurgerIcon />
         </button>
         <div
-          className={`absolute top-14 h-screen w-full transition-all duration-500 md:relative md:top-0 md:block md:h-full md:w-auto md:!right-0 ${
+          className={`absolute top-14 h-screen w-full transition-all duration-500 md:relative md:!right-0 md:top-0 md:block md:h-full md:w-auto ${
             open ? `right-0` : `right-[-100%]`
           }`}
           id="navbar-default"
         >
-          <ul className="mt-4 flex h-screen gap-6 flex-col items-center rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:h-auto md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
+          <ul className="mt-4 flex h-screen flex-col items-center gap-12 md:gap-8 border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:h-auto md:flex-row  md:rounded-lg md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
             <li>
               <Link
                 href="/"

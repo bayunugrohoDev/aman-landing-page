@@ -26,7 +26,7 @@ const Hero = () => {
           <button
             data-aos="fade-down"
             data-aos-delay="400"
-            className="mt-6 animate-bounce rounded-full bg-blazerBlue px-6 py-[10px] font-bold text-white"
+            className="mt-6 rounded-full bg-blazerBlue px-6 py-[10px] font-bold text-white"
           >
             {t("btnText")}
           </button>

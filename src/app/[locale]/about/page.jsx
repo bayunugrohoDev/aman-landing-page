@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import SectionTitle from "@/components/SectionTitle";
 import { useTranslations } from "next-intl";
+import Main from "@/components/Main";
 
 export default function About({ params: { locale } }) {
   unstable_setRequestLocale(locale);
@@ -16,8 +17,47 @@ export default function About({ params: { locale } }) {
     <>
       <Navbar />
 
-      <Container
-        className={`relative z-20 mb-[100px] mt-12 rounded-2xl bg-white md:top-[76px]`}
+      <Main className="mt-6 md:mt-12 top-[76px]" topImage="/images/about-hero.png">
+        <SectionTitle
+          title={
+            <span dangerouslySetInnerHTML={{ __html: t.raw("title") }}></span>
+          }
+          content={
+            <div
+              className="text-[22px]"
+              // dangerouslySetInnerHTML={{ __html: t.raw("aboutContent1") }}
+            >
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph1"),
+                }}
+              ></p>
+              <br />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph2"),
+                }}
+              ></p>
+              <br />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph3"),
+                }}
+              ></p>
+              <br />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph4"),
+                }}
+              ></p>
+            </div>
+          }
+        />
+        <div className="py-0"></div>
+        <ContactUs />
+      </Main>
+      {/* <Container
+        className={`relative top-8 z-20 mb-[100px] mt-20 max-w-[92%] overflow-hidden rounded-2xl bg-white md:container md:top-[76px]`}
       >
         <div className="relative h-[430px] w-full bg-blue-100">
           <Image
@@ -29,7 +69,7 @@ export default function About({ params: { locale } }) {
           ></Image>
         </div>
 
-        <div className="flex flex-col gap-32 p-16 pt-0 ">
+        <div className="flex flex-col gap-16 px-4 py-8 pt-0 md:gap-32 md:p-16 ">
           <SectionTitle
             title={
               <span dangerouslySetInnerHTML={{ __html: t.raw("title") }}></span>
@@ -69,7 +109,7 @@ export default function About({ params: { locale } }) {
           <ContactUs />
         </div>
         <Footer />
-      </Container>
+      </Container> */}
     </>
   );
 }

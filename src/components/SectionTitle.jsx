@@ -1,15 +1,15 @@
 import React from "react";
 
-const SectionTitle = ({ title, content, className = "" }) => {
+const SectionTitle = ({ title, content, className = "", ...props }) => {
   return (
-    <div className={`flex flex-col gap-12 ${className}`}>
+    <div {...props} className={`flex flex-col gap-6 md:gap-12 ${className}`}>
       <h2
-        data-aos="flip-down"
+        data-aos="fade-up"
         className="text-2xl font-normal md:text-[38px] md:leading-10"
       >
         {title}
       </h2>
-      {content}
+      <div data-aos="fade-up">{content}</div>
     </div>
   );
 };

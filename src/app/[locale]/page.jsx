@@ -5,7 +5,7 @@ import Benefits from "@/components/Benefits";
 import ContactUs from "@/components/ContactUs";
 import Faqs from "@/components/Faqs";
 import Hero from "@/components/Hero";
-import Layout from "@/components/Layout";
+import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
 import SectionTitle from "@/components/SectionTitle";
 import Testimonials from "@/components/Testimonials";
@@ -23,7 +23,7 @@ export default function Home({ params: { locale } }) {
 
       <Hero />
 
-      <Layout className="mt-[-90px] ">
+      <Main className="mt-[-90px] ">
         {/* Why should you buy a car insurance policy? */}
         <SectionTitle
           title={
@@ -62,7 +62,7 @@ export default function Home({ params: { locale } }) {
 
         {/* contact us  */}
         <ContactUs />
-      </Layout>
+      </Main>
     </>
   );
 }

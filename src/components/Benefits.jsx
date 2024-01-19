@@ -31,7 +31,7 @@ const Benefits = () => {
           ></h5>
           <p className="text-[22px] ">{t("description")}</p>
 
-          <button className="text-nd w-max rounded-full bg-prussianBlue px-6 py-[10px] font-bold text-white">
+          <button className="text-md w-max animate-bounce rounded-full bg-prussianBlue px-6 py-[10px] font-bold text-white">
             {t("btnText")}
           </button>
         </div>
