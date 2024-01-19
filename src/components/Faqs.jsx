@@ -10,18 +10,24 @@ const Faqs = () => {
   const t = useTranslations("faqs");
   return (
     <div className="flex flex-col gap-12">
-      <h2 className="text-[38px] font-bold leading-10"> {t("title")}</h2>
+      <h2
+        data-aos="zoom-in"
+        className="text-2xl font-bold leading-10 md:text-[38px]"
+      >
+        {" "}
+        {t("title")}
+      </h2>
       {/* faq 1 */}
-      <div className="w-full rounded-2xl">
+      <div data-aos="zoom-in-up" className="w-full rounded-2xl">
         <div className="mb-5">
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex items-center justify-between w-full px-16 py-8 bg-lightGrey rounded-2xl text-[22px] text-black">
+                <Disclosure.Button className="flex w-full items-center justify-between rounded-2xl bg-lightGrey p-4 text-[22px] text-black md:px-16 md:py-8">
                   <span>{t("faq1.question")}</span>
                   <PlusIcon />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-16 py-8 text-darkGrey">
+                <Disclosure.Panel className="p-4 text-darkGrey md:px-16 md:py-8">
                   {t("faq1.answer")}
                 </Disclosure.Panel>
               </>
@@ -31,16 +37,16 @@ const Faqs = () => {
       </div>
 
       {/* faq 2 */}
-      <div className="w-full rounded-2xl">
+      <div data-aos="zoom-in-up" className="w-full rounded-2xl">
         <div className="mb-5">
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex items-center justify-between w-full px-16 py-8 bg-lightGrey rounded-2xl text-[22px] text-black">
+                <Disclosure.Button className="flex w-full items-center justify-between rounded-2xl bg-lightGrey p-4 text-[22px] text-black md:px-16 md:py-8">
                   <span>{t("faq2.question")}</span>
                   <PlusIcon />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-16 py-8 text-darkGrey">
+                <Disclosure.Panel className="p-4 text-darkGrey md:px-16 md:py-8">
                   {t("faq2.answer")}
                 </Disclosure.Panel>
               </>
@@ -49,16 +55,16 @@ const Faqs = () => {
         </div>
       </div>
       {/* faq 3 */}
-      <div className="w-full rounded-2xl">
+      <div data-aos="zoom-in-up" className="w-full rounded-2xl">
         <div className="mb-5">
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex items-center justify-between w-full px-16 py-8 bg-lightGrey rounded-2xl text-[22px] text-black">
+                <Disclosure.Button className="flex w-full items-center justify-between rounded-2xl bg-lightGrey p-4 text-[22px] text-black md:px-16 md:py-8">
                   <span>{t("faq3.question")}</span>
                   <PlusIcon />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-16 py-8 text-darkGrey">
+                <Disclosure.Panel className="p-4 text-darkGrey md:px-16 md:py-8">
                   {t("faq3.answer")}
                 </Disclosure.Panel>
               </>

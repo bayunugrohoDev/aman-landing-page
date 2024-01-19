@@ -6,8 +6,8 @@ import { useTranslations } from "next-intl";
 const ContactUs = () => {
   const t = useTranslations("contact_us");
   return (
-    <div className="flex gap-[27px] bg-blazerBlue p-16 rounded-2xl">
-      <div className="flex flex-col w-1/2 text-white gap-6">
+    <div data-aos="fade-down" className="flex gap-[27px] rounded-2xl bg-blazerBlue p-8 flex-col md:flex-row md:p-16">
+      <div className="flex md:w-1/2 flex-col gap-6 text-white">
         <h3
           className="text-[32px]"
           dangerouslySetInnerHTML={{ __html: t.raw("title") }}
@@ -27,7 +27,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center w-1/2">
+      <div className="flex md:w-1/2 items-center">
         <Image
           height={281}
           width={500}

@@ -1,21 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 
 import { Link, usePathname } from "../../navigation";
 
 import SupportIcon from "./icons/SupportIcon";
+import BurgerIcon from "./icons/BurgerIcon";
 
-const Navbar = ({ className }) => {
+const Navbar = ({ className = ''}) => {
   const currentLocal = useLocale();
   const pathname = usePathname();
   const t = useTranslations("navbar");
 
+  const [open, setOpen] = useState(false);
+
+  const handleToggleClick = () => {
+    setOpen(!open);
+  };
+
   return (
-    <nav className={`bg-white shadow fixed top-0 z-40 w-full ${className}`}>
-      <div className="container mx-auto p-4 flex flex-wrap items-center justify-between ">
+    <nav className={`fixed top-0 z-40 w-full bg-white shadow ${className}`}>
+      <div className="container mx-auto flex flex-wrap items-center justify-between p-4 ">
         <Link href="/" className="flex items-center gap-1">
           <Image
             height={35}
@@ -23,42 +30,29 @@ const Navbar = ({ className }) => {
             src="/images/logo.svg"
             alt="Aman Logo"
           />
-          <span className="self-center text-3xl font-bold whitespace-nowrap pt-2">
+          <span className="self-center whitespace-nowrap pt-2 text-3xl font-bold">
             {t("title")}
           </span>
         </Link>
         <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          onClick={handleToggleClick}
         >
           <span className="sr-only">Open main menu</span>
-
           {/* burger  */}
-          <svg
-            className="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
+          <BurgerIcon />
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 items-center mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+        <div
+          className={`absolute top-14 h-screen w-full transition-all duration-500 md:relative md:top-0 md:block md:h-full md:w-auto md:!right-0 ${
+            open ? `right-0` : `right-[-100%]`
+          }`}
+          id="navbar-default"
+        >
+          <ul className="mt-4 flex h-screen gap-6 flex-col items-center rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:h-auto md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
             <li>
               <Link
                 href="/"
-                className={`font-semibold text-md leading-normal  px-4 py-2 rounded-lg ${
+                className={`rounded-lg px-4 py-2  text-md font-semibold leading-normal ${
                   pathname == "/" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -68,7 +62,7 @@ const Navbar = ({ className }) => {
             <li>
               <Link
                 href="/about"
-                className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
+                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
                   pathname == "/about" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -78,7 +72,7 @@ const Navbar = ({ className }) => {
             <li>
               <Link
                 href="/quote"
-                className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
+                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
                   pathname == "/quote" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -88,7 +82,7 @@ const Navbar = ({ className }) => {
             <li>
               <Link
                 href="/contact"
-                className={`font-semibold text-md leading-normal text-black px-4 py-2 rounded-lg ${
+                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
                   pathname == "/contact" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -98,7 +92,7 @@ const Navbar = ({ className }) => {
             <li>
               <Link
                 href="/support"
-                className={`font-semibold flex gap-1 items-center text-md leading-normal text-black px-4 py-2 rounded-lg ${
+                className={`flex items-center gap-1 rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
                   pathname == "/support" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -108,13 +102,13 @@ const Navbar = ({ className }) => {
                 {t("menu.support")}
               </Link>
             </li>
-            <li className="flex gap-1 items-center">
+            <li className="flex items-center gap-1">
               <Link
                 href={pathname}
                 locale="en"
                 className={`${
                   currentLocal == "en" ? "font-bold" : ""
-                } text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2`}
+                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black`}
               >
                 EN
               </Link>
@@ -124,7 +118,7 @@ const Navbar = ({ className }) => {
                 locale="ku"
                 className={`${
                   currentLocal == "ku" ? "font-bold" : ""
-                } text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2`}
+                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black`}
               >
                 کوردی
               </Link>
@@ -135,7 +129,7 @@ const Navbar = ({ className }) => {
                 locale="ar"
                 className={`${
                   currentLocal == "ar" ? "font-bold" : ""
-                } text-md leading-normal text-black py-2 rounded-lg flex items-center gap-2`}
+                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black`}
               >
                 عربي
               </Link>

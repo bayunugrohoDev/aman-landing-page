@@ -6,11 +6,13 @@ import Image from "next/image";
 const Layout = (props) => {
   return (
     <Container
-      className={`relative z-20 bg-white rounded-2xl  mb-[100px] ${
+      className={`relative z-20 mb-[100px] rounded-2xl  bg-white overflow-x-auto ${
         props.className ? props.className : ""
       }`}
     >
-      <div className="flex flex-col gap-32 p-16 ">{props.children}</div>
+      <div className="flex flex-col gap-16 p-8 md:gap-32 md:p-16 ">
+        {props.children}
+      </div>
       <Footer />
     </Container>
   );

@@ -7,14 +7,17 @@ const Video = () => {
   const [isPlayVideo, setIsPlayVideo] = useState(false);
 
   return (
-    <div className="w-full mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
+    <div
+      data-aos="fade-up"
+      className="mx-auto w-full overflow-hidden rounded-2xl lg:mb-20 "
+    >
       <div
         onClick={() => setIsPlayVideo(!isPlayVideo)}
-        className="relative h-[612px] cursor-pointer aspect-h-9 bg-black"
+        className="aspect-h-9 relative h-[200px] cursor-pointer bg-black md:h-[612px]"
       >
         {!isPlayVideo && (
-          <button className="absolute inset-auto w-16 h-16 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2">
-            <PlayVideoIcon/>
+          <button className="absolute inset-auto  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -scale-50 transform text-white md:h-16 md:w-16 md:scale-100 lg:h-28 lg:w-28">
+            <PlayVideoIcon />
             <span className="sr-only">Play Video</span>
           </button>
         )}

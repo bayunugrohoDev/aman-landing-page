@@ -6,8 +6,8 @@ const Benefits = () => {
   const t = useTranslations("benefits");
 
   return (
-    <div className="flex items-center gap-12">
-      <div className="relative w-1/2">
+    <div className="flex flex-col items-center gap-12 md:flex-row">
+      <div data-aos="fade-right" className="relative md:w-1/2">
         <Image
           width="613"
           height="516"
@@ -23,20 +23,16 @@ const Benefits = () => {
           className="relative z-10"
         ></Image>
       </div>
-      <div className="w-1/2 flex items-center">
+      <div data-aos="fade-left" className="flex items-center md:w-1/2">
         <div className="flex flex-col gap-8">
           <h5
-            className="text-[38px] text-black "
+            className="text-2xl text-black md:text-[38px] "
             dangerouslySetInnerHTML={{ __html: t.raw("title") }}
-          >
-          </h5>
-          <p className="text-[22px] ">
-          {t("description")}
-          </p>
+          ></h5>
+          <p className="text-[22px] ">{t("description")}</p>
 
-          <button className="bg-prussianBlue rounded-full text-white py-[10px] px-6 text-nd font-bold w-max">
-          {t("btnText")}
-
+          <button className="text-nd w-max rounded-full bg-prussianBlue px-6 py-[10px] font-bold text-white">
+            {t("btnText")}
           </button>
         </div>
       </div>

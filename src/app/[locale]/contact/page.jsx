@@ -14,10 +14,10 @@ export default function Contact({ params: { locale } }) {
 
   return (
     <>
-      <Navbar className="!sticky" />
+      <Navbar />
 
       <Container
-        className={`relative z-20 bg-white rounded-2xl mt-12 mb-[100px]`}
+        className={`relative z-20 bg-white rounded-2xl mt-12 mb-[100px] md:top-[76px]`}
       >
         <div className="h-[430px] w-full bg-blue-100 relative">
           <Image

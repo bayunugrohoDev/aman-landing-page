@@ -14,18 +14,18 @@ export default function About({ params: { locale } }) {
   const t = useTranslations("section_titles.about");
   return (
     <>
-      <Navbar className="!sticky" />
+      <Navbar />
 
       <Container
-        className={`relative z-20 bg-white rounded-2xl mt-12 mb-[100px]`}
+        className={`relative z-20 mb-[100px] mt-12 rounded-2xl bg-white md:top-[76px]`}
       >
-        <div className="h-[430px] w-full bg-blue-100 relative">
+        <div className="relative h-[430px] w-full bg-blue-100">
           <Image
             src="/images/about-hero.png"
             alt="profile"
             objectFit="cover"
             fill
-            className="w-full h-full top-0 left-0 object-cover"
+            className="left-0 top-0 h-full w-full object-cover"
           ></Image>
         </div>
 
@@ -43,8 +43,7 @@ export default function About({ params: { locale } }) {
                   dangerouslySetInnerHTML={{
                     __html: t.raw("content.paragraph1"),
                   }}
-                >
-                </p>
+                ></p>
                 <br />
                 <p
                   dangerouslySetInnerHTML={{

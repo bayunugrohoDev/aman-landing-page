@@ -41,7 +41,7 @@ const Testimonials = () => {
     }
   };
   return (
-    <div className="relative">
+    <div data-aos="zoom-in-up" className="relative">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
@@ -69,17 +69,17 @@ const Testimonials = () => {
           />
         </SwiperSlide>
       </Swiper>
-      <div className="flex z-20 items-center gap-6 absolute w-[152px] top-0 ltr:right-6 rtl:left-6">
+      <div className="absolute top-0 z-20 flex w-[152px] items-center gap-6 ltr:right-6 rtl:left-6">
         <button
           onClick={leftShiftHandler}
-          className="bg-lightGrey w-16 h-16 border-2 border-grey rounded-full flex items-center justify-center"
+          className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-grey bg-lightGrey"
         >
           <LeftArrowIcon />
         </button>
 
         <button
           onClick={rightShiftHandler}
-          className="bg-lightGrey w-16 h-16 border-2 border-grey rounded-full flex items-center justify-center rotate-180"
+          className="flex h-16 w-16 rotate-180 items-center justify-center rounded-full border-2 border-grey bg-lightGrey"
         >
           <LeftArrowIcon />
         </button>

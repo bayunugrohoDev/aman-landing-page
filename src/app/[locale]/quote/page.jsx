@@ -16,10 +16,10 @@ export default function Quote({ params: { locale } }) {
 
   return (
     <>
-      <Navbar className="!sticky" />
+      <Navbar />
 
       <Container
-        className={`relative z-20 bg-white rounded-2xl mt-12 mb-[100px]`}
+        className={`relative z-20 bg-white rounded-2xl mt-12 mb-[100px] md:top-[76px]`}
       >
         <div className="flex flex-col gap-32 p-16 ">
           <div className="flex gap-12 w-full">

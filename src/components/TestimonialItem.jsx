@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TestimonialItem = ({imgSrc, message, name}) => {
   return (
-    <div className="w-full flex gap-6 px-16 ">
+    <div className="w-full flex flex-col md:flex-row gap-6 md:px-16 ">
       <div className=" min-w-[114px] relative">
         <Image
           width="114"
