@@ -7,10 +7,10 @@ import { useTranslations } from "next-intl";
 const Footer = () => {
   const t = useTranslations("footer");
   return (
-    <div className="w-full flex flex-col p-8 gap-8 md:p-16 md:gap-16 bg-prussianBlue rounded-b-2xl">
+    <div className="flex w-full flex-col items-center gap-8 rounded-b-2xl bg-prussianBlue p-8 text-center md:items-start md:gap-16 md:p-16 md:text-left">
       {/* Head Office Section */}
-      <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
-        <p className="font-bold text-white">{t("headOffice.title")}</p>
+      <div className="flex flex-col items-center gap-2 text-center text-md  font-medium text-lightGrey md:items-start md:text-left">
+        <p className="font-bold  text-white">{t("headOffice.title")}</p>
         <p>{t("headOffice.company")}</p>
         <p>{t("headOffice.building")}</p>
         <p>{t("headOffice.street")}</p>
@@ -19,8 +19,8 @@ const Footer = () => {
       </div>
 
       {/* Follow Us Section */}
-      <div className="flex flex-col gap-6 md:flex-row md:gap-[128px]">
-        <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
+      <div className="flex flex-col items-center  gap-6 text-center md:flex-row md:items-start md:gap-[128px] md:text-left">
+        <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-lightGrey md:items-start md:text-left">
           <p className="font-bold text-white">{t("followUs.title")}</p>
           <div className="flex gap-4">
             <a href={t("followUs.socialMedia.0.link")}>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* Company Section */}
-        <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
+        <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-lightGrey md:items-start md:text-left">
           <p className="font-bold text-white">{t("company.title")}</p>
           <p>{t("company.aboutUs")}</p>
           <p>{t("company.executiveTeam")}</p>
@@ -41,22 +41,22 @@ const Footer = () => {
         </div>
 
         {/* Careers Section */}
-        <div className="flex flex-col text-md font-medium text-lightGrey gap-2">
+        <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-lightGrey md:items-start md:text-left">
           <p className="font-bold text-white">{t("careers.title")}</p>
           <p>{t("careers.jobOpenings")}</p>
         </div>
       </div>
 
       {/* Footer Links Section */}
-      <div className="flex flex-col md:flex-row gap-8 md:gap-0 justify-between">
-        <div className="flex gap-2 md:gap-8 text-white text-md font-medium flex-col md:flex-row ">
+      <div className="flex flex-col items-center justify-between gap-8 text-center md:flex-row md:items-start md:gap-0 md:text-left">
+        <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-white md:flex-row md:items-start md:gap-8 md:text-left ">
           <Link href={t("links.staffLogin")}>{t("links.staffLogin")}</Link>
           <Link href={t("links.privacyPolicy")}>
             {t("links.privacyPolicy")}
           </Link>
           <Link href={t("links.sitemap")}>{t("links.sitemap")}</Link>
         </div>
-        <div className="text-white text-md font-medium">{t("copyright")}</div>
+        <div className="text-md font-medium text-white">{t("copyright")}</div>
       </div>
     </div>
   );

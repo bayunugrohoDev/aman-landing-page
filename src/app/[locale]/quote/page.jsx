@@ -20,10 +20,7 @@ export default function Quote({ params: { locale } }) {
       <Navbar />
 
       <Main className="top-[76px] mt-6 md:mt-12">
-        <div
-          data-aos="fade-right"
-          className="flex w-full flex-col gap-6 md:flex-row md:gap-12"
-        >
+        <div className="flex w-full flex-col gap-6 md:flex-row md:gap-12">
           <SectionTitle
             className="w-full"
             title={
@@ -46,7 +43,7 @@ export default function Quote({ params: { locale } }) {
               </div>
             }
           />
-          <div data-aos="fade-left" className="relative w-full md:w-[370px]">
+          <div data-aos="fade-up" className="relative w-full md:w-[370px]">
             <Image
               width="422"
               height="356"

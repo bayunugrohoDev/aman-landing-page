@@ -16,7 +16,7 @@ const TestimonialItem = ({imgSrc, message, name}) => {
           height="96"
           src={imgSrc}
           alt="testimoni 1"
-          className="absolute top-2 left-2 rounded-full"
+          className="absolute top-2 ltr:left-2 rtl:right-2 rounded-full"
         ></Image>
       </div>
       <div className="flex flex-col gap-6 w-full max-w-[582px]">

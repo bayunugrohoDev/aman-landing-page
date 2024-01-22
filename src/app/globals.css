@@ -16,9 +16,12 @@
   height: 90px;
   width: 114px;
 }
-/* 
+
 @media (max-width: 767px) {
-  br {
-    display: none;
+  .bg-hero {
+    height: 593px;
   }
-} */
+  /* br {
+    display: none;
+  } */
+}

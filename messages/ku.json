@@ -17,8 +17,8 @@
   "section_titles": {
     "home": {
       "title1": "<b>بیمەکردنی عێراق</b>: ڕێگای تێپەڕاندن لە دەرەوەی ڕێگا نادیارەکان و دەرەوەی دەستهێنانی یاسا",
-      "title2": "چپڕۆكی ڕاسته‌قینه‌، متمانه‌ی قووڵ: كڕیاره‌كانمان ده‌دوێن",
-      "title3": "نادڵنیایی بگۆڕه‌ به‌ دڵنیایی – له‌گه‌ڵ بیمەی ئەمان"
+      "title2": "قووڵ: كڕیاره‌كانمان ده‌دوێن <b>ڕاسته‌قینه‌، متمانه‌ی </b> چپڕۆكی",
+      "title3": " له‌گه‌ڵ بیمەی ئەمان - <b> نادڵنیایی بگۆڕه‌ به‌ دڵنیایی </b>"
     },
     "about": {
       "title": "له باره ى  کۆمپانیای بيمه ى ئە مان ەوە",
@@ -30,62 +30,87 @@
       }
     },
     "quote": {
-      "title": "Get a <b> Quote </b>",
+      "title": "<b>قۆتەکەت ئێستا بگرە!</b> ئاسودەیی وەک شەوی بێ دەنگی منداڵان بدەستبهێنە: <b> بە یەک کلیک، </b>",
       "content": {
-        "paragraph1": "At Aman Insurance, we believe in clear, straightforward pricing that you can trust. Our rates are carefully set based on a thorough understanding of the local market, ensuring fairness and affordability. Getting a quote from us is as easy as it gets – just provide your vehicle's make and model, along with a few personal details, and within a minute, you'll have a transparent and tailored quote. No hidden fees, no complicated jargon, just honest pricing that makes sense for you. Experience the Aman difference, where transparency leads the way",
-        "paragraph2": "Fill in your details below, and we'll swiftly get in touch with a personalized quote just for you!"
+        "paragraph1": " ئێمه‌ له‌ بیمەی ئه‌مان، بڕوامان به‌ پرۆسه‌ی نرخدانانی ڕوون و ڕاسته‌وخۆ هه‌یه‌ به‌ شێوازێك كه‌ جێی متمانه‌ی تۆ بێـت. رێژه‌ی نرخه‌كانمان زۆر به‌ ووردی دیاریده‌كرێن به‌گوێره‌ی تێگه‌یشتنی ته‌واومان له‌ بازاڕی ناوخۆدا، بۆ دڵنیابوونه‌وه‌ له‌ دادپه‌روه‌ریی و گونجاوی نرخه‌كه‌. زانینی نرخ لای ئێمه‌ زۆر ئاسانه‌ - ته‌نها ماركه‌ و مۆدیلی سه‌یاره‌كه‌تمان پێ بڵێ له‌گه‌ڵ هه‌ندێ له‌ زانیاری كه‌سی خۆت، ئینجا له‌ ماوه‌ی چه‌ند خوله‌كێك نرخێكی شه‌فاف و تایبه‌ت به‌ خۆت وه‌رده‌گری. هیچ رسوماتێكی نهێنی نیه‌، هیچ زمانێكی قورسیش نیه‌، ته‌نها نرخدانانی ڕاستگۆ و مه‌عقووڵی تایبه‌ت به‌ تۆ. ئه‌م تایبه‌تمه‌ندییه‌ جیاوازه‌ی بیمەی ئه‌مان تاقی بكه‌وه‌، كه‌ ڕوونی و شه‌فافی تیایدا سه‌رقافڵه‌یه‌.",
+        "paragraph2": ""
+      }
+    },
+    "contact": {
+      "title": "<b>پەیوەندیمان پێوە بکە</b>",
+      "content": {
+        "paragraph1": "<b> په‌یوه‌ندیمان پێوه‌ بكه‌ له‌ رێگه‌ی ژماره‌ ته‌له‌فۆنی</b> <br /> 12345698",
+        "paragraph2": "<b> ده‌توانین په‌یوه‌ندیت پێوه‌بكه‌ین</b> <br /> <a href='' className='underline'> دووباره‌ په‌یوه‌ندیم پێوه‌بكه‌وه‌</a>",
+        "paragraph3": "<b> ڕاسته‌وخۆ ئیمه‌یل بنێره‌</b> <br /><a href='' className='underline'>info@aman-iq.com</a>"
+      }
+    },
+    "support": {
+      "title": "پێشكه‌ش بكه‌ <b>داواكاریه‌ك</b>",
+      "content": {
+        "paragraph1": "له‌گه‌ڵ بیمەی ئه‌مان، داواكاری قه‌ربۆكردنه‌وه‌ و سكاڵا خێرا و بێ ماندووبوونه‌، ته‌نها به‌ چه‌ند كلیكێك به‌ ئۆنڵاین یان په‌یوه‌ندی ته‌له‌فۆنی، ئێمه‌ رێنمایی ته‌واوت ده‌كه‌ین تاكو‌ بتوانی هه‌موو هه‌نگاوه‌كان به‌ وریایی و لێهاتووییه‌وه‌ ته‌واو بكه‌ی.",
+        "paragraph2": "",
+        "paragraph3": ""
+      },
+      "title2": "<b>ئه‌مڕۆ نرخ وه‌ربگره‌ </b> هه‌ر <br /> كڕیارمان نیت؟",
+      "content2": {
+        "paragraph1": " ئێمه‌ له‌ بیمەی ئه‌مان بڕوامان به‌ نرخدانانی ڕوون و ڕاسته‌خۆ هه‌یه‌ كه‌ جێگه‌ی متمانه‌ی تۆیه‌",
+        "btnText": "هه‌ر ئێستا پرسیار له‌ نرخ بكه‌"
       }
     }
   },
   "forms": {
-    "titles" : {
-      "support" : "Make a Claim"
+    "titles": {
+      "support": "پێویستم بە هاوکارییە"
     },
     "fields": {
       "name": {
-        "label": "Name",
-        "placeholder": "Full Name"
+        "label": "ناو",
+        "placeholder": "ناوی تەواو"
       },
       "fullName": {
-        "label": "Name",
-        "placeholder": "Your first and lastname"
+        "label": "ناو",
+        "placeholder": "ناوی تەواو"
       },
       "identifyDocument": {
-        "label": "Identity Documents",
-        "placeholder": "Identity Documents"
+        "label": "به‌ڵگه‌نامه‌كانی ناسنامه‌",
+        "placeholder": "فایل هەڵبژێرە (PDF، JPG یان Doc)"
       },
       "email": {
-        "label": "Email",
-        "placeholder": "Your Email"
+        "label": "ئیمەیل",
+        "placeholder": "ئیمەیلەکەت"
       },
       "phoneNumber": {
-        "label": "Phone number",
+        "label": "ژماره‌ی ته‌له‌فۆن",
         "placeholder": "+961 7XX XXX XXXX"
       },
       "address": {
-        "label": "Address",
-        "placeholder": "Building, Street Name, City, and Governate"
+        "label": "ناونیشان",
+        "placeholder": "بینا، ناوی شەقام، شار، و پارێزگا"
       },
       "carInfo": {
-        "label": "Car Info",
-        "placeholder": "Get your Quote"
+        "label": "زانیاری ئۆتۆمبیله‌كه‌",
+        "placeholder": "براند، مۆدێل، ساڵ و زانیاریەکانی تر کە پێویستمان پێیەتی"
       },
       "insuranceNumber": {
-        "label": "Insurance number",
-        "placeholder": "Your insurance number"
+        "label": "ژماره‌ی بیمەی",
+        "placeholder": "ژمارەی بیمەکەت"
       },
       "subject": {
-        "label": "Subject",
-        "placeholder": "Tell us what you need help with"
+        "label": "بابه‌ت",
+        "placeholder": "ئاگادارمان بکەوە چۆن دەتوانین هاوکاریت بکەین"
+      },
+      "claimDetails": {
+        "label": "وردەکارییەکانی داواکاری",
+        "placeholder": "بۆ ئەوەی بتوانین داواکارییەکەت بە خێرایی و کارایی پڕۆسەس بکەین، تکایە زانیاری ورد دەربارەی رووداوەکە بەمان بدە، لەوانەشە تاریخ، شوێن، و هەر زانیارییەکی پەیوەندیدار. چیتر وردتر زانیارییەکان بن، ئاسانتر دەبێت بۆ ئێمەیش کە هاوکاریت بکەین.        "
       }
     },
-    "buttonsText":{
-      "quote" : "Get Your Quote",
-      "contact" : "Send Message",
-      "support" : "Make a Claim"
+    "buttonsText": {
+      "quote": "هه‌ر ئێستا پرسیار له‌ نرخ بكه‌",
+      "contact": "ناردن",
+      "support": "ناردن"
     },
-    "note" : {
-      "contact" : " if you already a member of the Aman family."
+    "note": {
+      "contact": " if you already a member of the Aman family."
     }
   },
   "testimonials": {
@@ -95,8 +120,8 @@
         "message": "خێزانه‌كه‌مان هه‌ست به‌ ئارامی و دڵنیایی ده‌كات له‌ رێگه‌ی پاڵپشتی ئه‌مان بۆ بیمەی. شێوازی ڕاستگۆ‌یان و پارێزگاریكردنی متمانه‌پێكراویان هه‌ستی ئارامی ده‌روونیمان پێده‌به‌خشێ له‌ ژیانی ڕۆژانه‌ماندا"
       },
       {
-        "name": "Dhana, Suwar",
-        "message": "Feel i can do anything, without worrying anymore"
+        "name": "دانا، سوار",
+        "message": "هەست بکە دەتوانم هەموو شتێک بکەم، بەبێ ئەوەی چیتر نیگەران بم"
       }
     ]
   },

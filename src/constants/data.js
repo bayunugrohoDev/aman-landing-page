@@ -1,3 +1,5 @@
+export const emailTo = 'mailto:info@aman-iq.com';
+
 export const faqData = [
   {
     question: "What Makes Aman Insurance Different?",

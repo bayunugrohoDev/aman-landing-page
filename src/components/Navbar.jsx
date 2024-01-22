@@ -48,11 +48,11 @@ const Navbar = ({ className = "" }) => {
           }`}
           id="navbar-default"
         >
-          <ul className="mt-4 flex h-screen flex-col items-center gap-12 md:gap-8 border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:h-auto md:flex-row  md:rounded-lg md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
+          <ul className="mt-4 flex h-screen flex-col items-center gap-12 border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:h-auto md:flex-row md:gap-8  md:rounded-lg md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
             <li>
               <Link
                 href="/"
-                className={`rounded-lg px-4 py-2  text-md font-semibold leading-normal ${
+                className={`rounded-lg px-4 py-2  text-md font-semibold leading-normal transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
                   pathname == "/" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -62,7 +62,7 @@ const Navbar = ({ className = "" }) => {
             <li>
               <Link
                 href="/about"
-                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
+                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
                   pathname == "/about" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -72,7 +72,7 @@ const Navbar = ({ className = "" }) => {
             <li>
               <Link
                 href="/quote"
-                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
+                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
                   pathname == "/quote" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -82,7 +82,7 @@ const Navbar = ({ className = "" }) => {
             <li>
               <Link
                 href="/contact"
-                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
+                className={`rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
                   pathname == "/contact" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -92,7 +92,7 @@ const Navbar = ({ className = "" }) => {
             <li>
               <Link
                 href="/support"
-                className={`flex items-center gap-1 rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black ${
+                className={`flex items-center gap-1 rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
                   pathname == "/support" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
@@ -108,7 +108,7 @@ const Navbar = ({ className = "" }) => {
                 locale="en"
                 className={`${
                   currentLocal == "en" ? "font-bold" : ""
-                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black`}
+                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black transition-all duration-300 ease-in-out  hover:text-blazerBlue`}
               >
                 EN
               </Link>
@@ -118,7 +118,7 @@ const Navbar = ({ className = "" }) => {
                 locale="ku"
                 className={`${
                   currentLocal == "ku" ? "font-bold" : ""
-                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black`}
+                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black transition-all duration-300 ease-in-out  hover:text-blazerBlue`}
               >
                 کوردی
               </Link>
@@ -129,7 +129,7 @@ const Navbar = ({ className = "" }) => {
                 locale="ar"
                 className={`${
                   currentLocal == "ar" ? "font-bold" : ""
-                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black`}
+                } flex items-center gap-2 rounded-lg py-2 text-md leading-normal text-black transition-all duration-300 ease-in-out  hover:text-blazerBlue`}
               >
                 عربي
               </Link>

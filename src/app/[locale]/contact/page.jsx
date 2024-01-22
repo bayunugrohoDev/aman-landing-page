@@ -10,9 +10,12 @@ import { useTranslations } from "next-intl";
 import Main from "@/components/Main";
 import FormCard from "@/components/FormCard";
 import Input from "@/components/Input";
+import FormContact from "@/components/FormContact";
 
 export default function Contact({ params: { locale } }) {
   unstable_setRequestLocale(locale);
+
+  const t = useTranslations("section_titles.contact");
 
   return (
     <>
@@ -23,84 +26,32 @@ export default function Contact({ params: { locale } }) {
       >
         <SectionTitle
           title={
-            <>
-              Get in <span className="font-bold"> Contact</span>
-            </>
+            <span dangerouslySetInnerHTML={{ __html: t.raw("title") }}></span>
           }
           content={
             <div className="text-[22px]">
-              <p>
-                <b> CALL US AT </b> <br />
-                12345698
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph1"),
+                }}
+              ></p>
               <br />
-              <p>
-                <b> WE CAN CALL YOU </b> <br />
-                <a href="" className="underline">
-                  Call me back
-                </a>
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph2"),
+                }}
+              ></p>
               <br />
-              <p>
-                <b> EMAIL US DIRECTLY</b> <br />
-                <a href="" className="underline">
-                  info@aman-iq.com
-                </a>
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t.raw("content.paragraph3"),
+                }}
+              ></p>
             </div>
           }
         />
         {/* form  */}
-        <FormCard>
-          <form>
-            <div className="grid grid-cols-2 gap-12">
-
-              <Input
-                label="Name"
-                name="name"
-                placeholder="Your first and lastname"
-              />
-
-              <Input
-                label="insurance number"
-                name="insurance"
-                placeholder="Your insurance number"
-              />
-
-              <Input
-                type="email"
-                label="Email"
-                name="email"
-                placeholder="Your Email"
-              />
-
-              <Input
-                label="Phone number"
-                name="email"
-                placeholder="+961 7XX XXX XXXX"
-              />
-
-              <div className="col-span-2 flex flex-col">
-                <label className="font-bold text-darkGrey">Subject</label>
-                <textarea
-                  className="w-full rounded-lg bg-white p-3 text-grey"
-                  placeholder="Tell us what you need help with"
-                  rows="5"
-                ></textarea>
-              </div>
-              <div className="col-span-2 flex justify-end">
-                <button className="rounded-full bg-blazerBlue px-6 py-[10px] font-bold text-white">
-                  Send Message
-                </button>
-              </div>
-              <div className="col-span-2 flex justify-end">
-                <p className="text-sm font-normal text-darkGrey">
-                  * if you already a member of the Aman family.
-                </p>
-              </div>
-            </div>
-          </form>
-        </FormCard>
+        <FormContact/>
         <ContactUs />
       </Main>
     </>

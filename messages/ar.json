@@ -30,59 +30,84 @@
       }
     },
     "quote": {
-      "title": "Get a <b> Quote </b>",
+      "title": "<b>  السعر المعروض</b> أحصِل على",
       "content": {
-        "paragraph1": "At Aman Insurance, we believe in clear, straightforward pricing that you can trust. Our rates are carefully set based on a thorough understanding of the local market, ensuring fairness and affordability. Getting a quote from us is as easy as it gets – just provide your vehicle's make and model, along with a few personal details, and within a minute, you'll have a transparent and tailored quote. No hidden fees, no complicated jargon, just honest pricing that makes sense for you. Experience the Aman difference, where transparency leads the way",
-        "paragraph2": "Fill in your details below, and we'll swiftly get in touch with a personalized quote just for you!"
+        "paragraph1": "إننا في شركة أمان للتأمين، نؤمن بتسعير واضح ومباشر يمكنك الوثوق به. يتم تحديد أسعارنا بعناية بناءً على فهم شامل للسوق المحلية، مما يضمن العدالة والقدرة على تحمل التكاليف. إن الحصول على السعر المعروض من قِبَلِنا سهل للغاية - ما عليك سوى ذِكِر موديل السيارة وتاريخ الصنع، جنباً إلى جنب مع بعض التفاصيل الشخصية، وفي غضون دقيقة واحدة، ستحصل على تسعيرة شفافة ومصممة خصيصا لك. لا توجد رسوم خفية، ولا كلام معقد، فقط أسعار صادقة منطقية بالنسبة لك. جَرِّب ما هو مُمَيَّز في شركة أمان للتأمين، حيث تكون للشفافية قصب السبق",
+        "paragraph2": ""
+      }
+    },
+    "contact": {
+      "title": "<b>تواصَل معنا</b>",
+      "content": {
+        "paragraph1": "<b> إتصِل بنا على الهاتف رقم </b> <br /> 12345698",
+        "paragraph2": "<b> يمكننا الاتصال بك </b> <br /> <a href='' className='underline'> اتصل بي مرة أخرى </a>",
+        "paragraph3": "<b> راسلنا مباشرة عِبر البريد الإلكتروني</b> <br /><a href='' className='underline'>info@aman-iq.com</a>"
+      }
+    },
+    "support": {
+      "title": "<b> الدعم </b>أحتاج إلى",
+      "content": {
+        "paragraph1": "إن تقديم دعوى إلى شركة أمان للتأمين يتم بسرعة ويخلو من المتاعب ؛ مُجَرَّد بضع نقرات عبر الإنترنت أو مكالمة  ",
+        "paragraph2": "",
+        "paragraph3": ""
+      },
+      "title2": "اليوم. <b>السعر المعروض</b> ستَ زبونا ؟ اطلب",
+      "content2": {
+        "paragraph1": " في شركة أمان للتأمين، نؤمن بتسعير واضح ومباشر يمكنك الوثوق به",
+        "btnText": "أحصِل على السعر المعروض"
       }
     }
   },
   "forms": {
     "titles": {
-      "support": "Make a Claim"
+      "support": "قَدِّم دعوى"
     },
     "fields": {
       "name": {
-        "label": "Name",
-        "placeholder": "Full Name"
+        "label": "الإسم",
+        "placeholder": "الاسم الكامل"
       },
       "fullName": {
-        "label": "Name",
-        "placeholder": "Your first and lastname"
+        "label": "الإسم",
+        "placeholder": "الاسم الكامل"
       },
       "identifyDocument": {
-        "label": "Identity Documents",
-        "placeholder": "Identity Documents"
+        "label": "وثيقة الهوية",
+        "placeholder": "اختر ملف (JPG, PDF أو Doc)"
       },
       "email": {
-        "label": "Email",
-        "placeholder": "Your Email"
+        "label": "االبريد الإلكتروني",
+        "placeholder": "بريدك الإلكتروني"
       },
       "phoneNumber": {
-        "label": "Phone number",
+        "label": "رقم الهاتف",
         "placeholder": "+961 7XX XXX XXXX"
       },
       "address": {
-        "label": "Address",
-        "placeholder": "Building, Street Name, City, and Governate"
+        "label": " العنوان",
+        "placeholder": "المبنى، اسم الشارع، المدينة، والمحافظة"
       },
       "carInfo": {
-        "label": "Car Info",
-        "placeholder": "Get your Quote"
+        "label": "معلومات",
+        "placeholder": "الماركة، الموديل، السنة، مسافة السيارة المقطوعة، وسنوات الرخصة"
       },
       "insuranceNumber": {
-        "label": "Insurance number",
-        "placeholder": "Your insurance number"
+        "label": "رقم التأمين",
+        "placeholder": "رقم التأمين الخاص بك"
       },
       "subject": {
-        "label": "Subject",
-        "placeholder": "Tell us what you need help with"
+        "label": "الموضوع",
+        "placeholder": "أخبرنا بما تحتاج مساعدة فيه"
+      },
+      "claimDetails": {
+        "label": "تفاصيل المطالبة",
+        "placeholder": "لمساعدتنا في معالجة مطالبتك بسرعة وكفاءة، الرجاء تزويدنا بالتفاصيل الدقيقة للحادث، بما في ذلك التاريخ، الموقع، وأي معلومات ذات صلة. كلما كانت المعلومات أكثر شمولاً، سيكون من الأسهل لنا مساعدتك."
       }
     },
     "buttonsText": {
-      "quote": "Get Your Quote",
-      "contact": "Send Message",
-      "support": "Make a Claim"
+      "quote": "أحصِل على السعر المعروض",
+      "contact": "إرسال",
+      "support": "إرسال"
     },
     "note": {
       "contact": " if you already a member of the Aman family."
@@ -95,8 +120,8 @@
         "message": "تشعر عائلتنا بالأمان وهي تعلم أن شركة أمان للتأمين تدعمنا. إن نهجهم الصادق وتغطيتهم الموثوقة يمنحنا راحة البال في حياتنا اليومية"
       },
       {
-        "name": "Dhana, Suwar",
-        "message": "Feel i can do anything, without worrying anymore"
+        "name": "دانا، سوار",
+        "message": "أشعر أنني أستطيع أن أفعل أي شيء، دون القلق بعد الآن"
       }
     ]
   },
