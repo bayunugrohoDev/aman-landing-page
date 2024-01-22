@@ -102,7 +102,7 @@ const Navbar = ({ className = "" }) => {
                 {t("menu.support")}
               </Link>
             </li>
-            <li className="flex items-center gap-1">
+            <li className="flex items-center gap-1 rtl:flex-row-reverse ">
               <Link
                 href={pathname}
                 locale="en"
