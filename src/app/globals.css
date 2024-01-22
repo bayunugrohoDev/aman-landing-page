@@ -8,6 +8,9 @@
   background-position: center;
   height: 693px;
 }
+.bg-hero.rtl {
+  background-image: url('../../public/images/hero-rtl-bg.png');
+}
 
 .bg-testimoni-user {
   background-image: url('../../public/images/testimoni-bg-user.png');

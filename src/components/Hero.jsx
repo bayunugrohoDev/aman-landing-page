@@ -1,12 +1,15 @@
 import React from "react";
 import Container from "./Container";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Hero = () => {
   const t = useTranslations("hero");
+  const currentLocal = useLocale();
   return (
-    <div className="bg-hero relative bg-cover  bg-center">
+    <div
+      className={`bg-hero ${currentLocal != "en" ? "ltr" : "rtl"} relative bg-cover  bg-center`}
+    >
       {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
       <Container className="absolute inset-0 flex items-center p-8 md:p-16 ">
         <div className="z-10 text-white md:w-[620px]">
