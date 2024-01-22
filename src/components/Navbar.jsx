@@ -92,7 +92,7 @@ const Navbar = ({ className = "" }) => {
             <li>
               <Link
                 href="/support"
-                className={`flex items-center gap-1 rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
+                className={` gap-1 group rounded-lg px-4 py-2 text-md font-semibold leading-normal text-black transition-all duration-300 ease-in-out hover:bg-blazerBlue hover:text-white ${
                   pathname == "/support" ? "bg-prussianBlue text-white" : ""
                 }`}
               >
