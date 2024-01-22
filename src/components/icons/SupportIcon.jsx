@@ -8,7 +8,7 @@ const SupportIcon = ({ color = "black" }) => {
       viewBox="0 0 16 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="mr-2 inline"
+      className="rtl:ml-2 ltr:mr-2 inline"
     >
       <g clipPath="url(#clip0_55_33)">
         <path
