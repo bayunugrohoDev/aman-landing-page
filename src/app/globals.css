@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .bg-hero {
   background-image: url('../../public/images/hero-bg.png');
   background-size: cover;
   background-position: center;
   height: 693px;
 }
+
 .bg-hero.rtl {
   background-image: url('../../public/images/hero-rtl-bg.png');
 }
@@ -24,7 +26,4 @@
   .bg-hero {
     height: 593px;
   }
-  /* br {
-    display: none;
-  } */
 }

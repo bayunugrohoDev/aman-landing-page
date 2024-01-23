@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'fixeldisplay': ['FixelDisplay', 'sans-serif'],
+        'fixeldisplay': ['var(--font-inter)'],
       },
       colors: {
         prussianBlue: '#003153',
