@@ -44,7 +44,7 @@ const Navbar = ({ className = "" }) => {
         </button>
         <div
           className={`absolute top-14 h-screen w-full transition-all duration-500 md:relative md:!right-0 md:top-0 md:block md:h-full md:w-auto ${
-            open ? `right-0` : `right-[-100%]`
+            open ? `ltr:right-0 rtl:left-0` : `ltr:right-[-100%] rtl:left-[-100%]`
           }`}
           id="navbar-default"
         >
