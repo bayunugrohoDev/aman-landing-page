@@ -24,7 +24,7 @@ export default function About({ params: { locale } }) {
           }
           content={
             <div
-              className="text-[22px]"
+              className="text-[22px] md:max-w-[720px]"
               // dangerouslySetInnerHTML={{ __html: t.raw("aboutContent1") }}
             >
               <p

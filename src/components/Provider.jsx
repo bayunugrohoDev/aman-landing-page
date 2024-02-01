@@ -1,11 +1,16 @@
 "use client";
 
 import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
+
 import { AOSInit } from "./AOSInit";
 
+import { usePathname } from "../../navigation";
+
 const Provider = ({ children }) => {
+  const pathname = usePathname();
+
   return (
-    <>
+    <div className={`${pathname != "/" ? "bg-beige-top" : pathname} `}>
       <AOSInit />
       {children}
       <ProgressBar
@@ -14,7 +19,7 @@ const Provider = ({ children }) => {
         options={{ showSpinner: false }}
         shallowRouting
       />
-    </>
+    </div>
   );
 };
 

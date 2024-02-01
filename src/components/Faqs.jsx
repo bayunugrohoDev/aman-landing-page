@@ -24,7 +24,7 @@ const Faqs = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex w-full items-center justify-between rounded-2xl bg-lightGrey p-4 text-[22px] text-black md:px-16 md:py-8">
-                  <span>{t("faq1.question")}</span>
+                  <span className="leading-3">{t("faq1.question")}</span>
                   <PlusIcon />
                 </Disclosure.Button>
                 <Disclosure.Panel className="p-4 text-darkGrey md:px-16 md:py-8">

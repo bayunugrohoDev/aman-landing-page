@@ -36,19 +36,19 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-lightGrey md:items-start md:text-left">
           <p className="font-bold text-white">{t("company.title")}</p>
           <p>{t("company.aboutUs")}</p>
-          <p>{t("company.executiveTeam")}</p>
-          <p>{t("company.partners")}</p>
+          {/* <p>{t("company.executiveTeam")}</p>
+          <p>{t("company.partners")}</p> */}
         </div>
 
         {/* Careers Section */}
-        <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-lightGrey md:items-start md:text-left">
+        {/* <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-lightGrey md:items-start md:text-left">
           <p className="font-bold text-white">{t("careers.title")}</p>
           <p>{t("careers.jobOpenings")}</p>
-        </div>
+        </div> */}
       </div>
 
       {/* Footer Links Section */}
-      <div className="flex flex-col items-center justify-between gap-8 text-center md:flex-row md:items-start md:gap-0 md:text-left">
+      <div className="flex w-full flex-col items-center justify-between gap-8 text-center md:flex-row md:items-start md:gap-0 md:text-left">
         <div className="flex flex-col items-center gap-2 text-center text-md font-medium text-white md:flex-row md:items-start md:gap-8 md:text-left ">
           <Link href={t("links.staffLogin")}>{t("links.staffLogin")}</Link>
           <Link href={t("links.privacyPolicy")}>

@@ -17,11 +17,11 @@ const Main = (props) => {
             alt="profile"
             objectFit="cover"
             fill
-            className="left-0 top-0 h-full w-full object-cover"
+            className="left-0 top-0 h-full w-full object-cover object-bottom"
           ></Image>
         </div>
       )}
-      <div className="flex flex-col gap-16 px-6 py-8 md:gap-32 md:p-16 ">
+      <div className="flex flex-col gap-16 px-6 py-8 md:gap-32 md:py-16 md:px-24 ">
         {props.children}
       </div>
       <Footer />
