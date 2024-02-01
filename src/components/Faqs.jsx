@@ -44,7 +44,7 @@ const Faqs = () => {
           onClick={handleViewAllClick}
           className="text-md font-semibold text-darkGrey"
         >
-          View All
+          {t("btnViewAll")}
         </button>
       </div>
 
