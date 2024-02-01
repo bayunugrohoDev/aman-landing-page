@@ -3,10 +3,10 @@
 import { useTranslations } from "next-intl";
 import "swiper/css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useState } from "react";
 
 import LeftArrowIcon from "./icons/LeftArrowIcon";
-import { Swiper, SwiperSlide } from "swiper/react";
 import TesttimonialItem from "./TestimonialItem";
 
 const Testimonials = () => {

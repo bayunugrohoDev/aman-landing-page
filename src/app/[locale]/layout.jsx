@@ -22,47 +22,47 @@ export function generateStaticParams() {
 const fixel = localFont({
   src: [
     {
-      path: "../fonts/FixelDisplay-Thin.woff2",
+      path: "../../fonts/FixelDisplay-Thin.woff2",
       weight: "100",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-SemiBold.woff2",
+      path: "../../fonts/FixelDisplay-SemiBold.woff2",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-Regular.woff2",
+      path: "../../fonts/FixelDisplay-Regular.woff2",
       weight: "normal",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-Medium.woff2",
+      path: "../../fonts/FixelDisplay-Medium.woff2",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-Light.woff2",
+      path: "../../fonts/FixelDisplay-Light.woff2",
       weight: "300",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-ExtraLight.woff2",
+      path: "../../fonts/FixelDisplay-ExtraLight.woff2",
       weight: "200",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-ExtraBold.woff2",
+      path: "../../fonts/FixelDisplay-ExtraBold.woff2",
       weight: "800",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-Bold.woff2",
+      path: "../../fonts/FixelDisplay-Bold.woff2",
       weight: "bold",
       style: "normal",
     },
     {
-      path: "../fonts/FixelDisplay-Black.woff2",
+      path: "../../fonts/FixelDisplay-Black.woff2",
       weight: "900",
       style: "normal",
     },
