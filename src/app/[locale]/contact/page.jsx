@@ -1,15 +1,11 @@
-import Image from "next/image";
 
-import ContactUs from "@/components/ContactUs";
-import Container from "@/components/Container";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import SectionTitle from "@/components/SectionTitle";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
+
+import ContactUs from "@/components/ContactUs";
+import Navbar from "@/components/Navbar";
+import SectionTitle from "@/components/SectionTitle";
 import Main from "@/components/Main";
-import FormCard from "@/components/FormCard";
-import Input from "@/components/Input";
 import FormContact from "@/components/FormContact";
 
 export default function Contact({ params: { locale } }) {
@@ -50,8 +46,9 @@ export default function Contact({ params: { locale } }) {
             </div>
           }
         />
-        {/* form  */}
+        
         <FormContact/>
+
         <ContactUs />
       </Main>
     </>

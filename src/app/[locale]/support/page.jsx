@@ -1,13 +1,11 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/Navbar";
 import SectionTitle from "@/components/SectionTitle";
-import { unstable_setRequestLocale } from "next-intl/server";
 import Main from "@/components/Main";
-import FormCard from "@/components/FormCard";
-import Input from "@/components/Input";
-import { useTranslations } from "next-intl";
 import FormSupport from "@/components/FormSupport";
 
 export default function Support({ params: { locale } }) {

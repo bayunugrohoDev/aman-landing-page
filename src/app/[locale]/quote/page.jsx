@@ -1,12 +1,12 @@
 import Image from "next/image";
+import { unstable_setRequestLocale } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
 import ContactUs from "@/components/ContactUs";
 import Container from "@/components/Container";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import SectionTitle from "@/components/SectionTitle";
-import { unstable_setRequestLocale } from "next-intl/server";
-import { useTranslations } from "next-intl";
 import FormQuote from "@/components/FormQuote";
 import Main from "@/components/Main";
 
