@@ -36,7 +36,6 @@ const Testimonials = () => {
           disableOnInteraction: false,
         }}
         loop={true}
-        onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => setSwiper(swiper)}
         modules={[Autoplay, Navigation, Pagination]}
       >
