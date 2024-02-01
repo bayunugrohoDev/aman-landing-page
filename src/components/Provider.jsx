@@ -10,16 +10,20 @@ const Provider = ({ children }) => {
   const pathname = usePathname();
 
   return (
-    <div className={`${pathname != "/" ? "bg-beige-top" : pathname} `}>
-      <AOSInit />
-      {children}
-      <ProgressBar
-        height="4px"
-        color="#003153"
-        options={{ showSpinner: false }}
-        shallowRouting
-      />
-    </div>
+    <body
+      className={`bg-lightGrey ${pathname != "/" ? "bg-beige-top" : pathname} `}
+    >
+      <div>
+        <AOSInit />
+        {children}
+        <ProgressBar
+          height="4px"
+          color="#003153"
+          options={{ showSpinner: false }}
+          shallowRouting
+        />
+      </div>
+    </body>
   );
 };
 

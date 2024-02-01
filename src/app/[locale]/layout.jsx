@@ -75,12 +75,10 @@ export default function RootLayout({ children, params: { locale } }) {
   const direction = useTextDirection(locale);
   const messages = useMessages();
   return (
-    <html className={fixel.className} lang={locale} dir={direction}>
-      <body className={`bg-lightGrey `}>
+    <html className={fixel.className} lang={locale} dir={direction}>     
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Provider>{children}</Provider>
         </NextIntlClientProvider>
-      </body>
     </html>
   );
 }
